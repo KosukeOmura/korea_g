@@ -46,20 +46,27 @@ header {
     }
 }
 
-.container {
+.slider {
     max-width: 1200px;
-
-    ul {
-        padding:0;
-    }
-
-
-    li{
+      /* はみ出した要素は隠れるようにする */
+    overflow: hidden;
+    .slider2 {
+        padding: 0;
+        margin: 0;
+          /* はみ出した要素は隠れるようにする */
+        overflow: hidden;
         list-style: none;
-    }
+        position: relative;
 
-    img {
-        max-width:1200px;
+        ul {
+            padding:0;
+            display: flex;
+        }
+
+        .slider_item{
+            max-width: 1200px;
+            /* スライドを横一列に並べる */
+        }
     }
 
 }

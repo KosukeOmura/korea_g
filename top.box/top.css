@@ -50,20 +50,29 @@ header #List-top a {
   color: black;
 }
 
-.container {
+.slider {
   max-width: 1200px;
+  /* はみ出した要素は隠れるようにする */
+  overflow: hidden;
 }
 
-.container ul {
+.slider .slider2 {
   padding: 0;
-}
-
-.container li {
+  margin: 0;
+  /* はみ出した要素は隠れるようにする */
+  overflow: hidden;
   list-style: none;
+  position: relative;
 }
 
-.container img {
+.slider .slider2 ul {
+  padding: 0;
+  display: flex;
+}
+
+.slider .slider2 .slider_item {
   max-width: 1200px;
+  /* スライドを横一列に並べる */
 }
 
 #banner {
