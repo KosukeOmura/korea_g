@@ -1,3 +1,4 @@
+@charset "UTF-8";
 body {
   max-width: 1200px;
   margin: 0 auto;
@@ -82,4 +83,78 @@ header #List-top a {
 #banner li {
   list-style: none;
   margin: 25px;
+}
+
+/*カテゴリ*/
+#categories {
+  max-width: 1200px;
+}
+
+#categoriesCol {
+  border-top: 4px solid rgba(167, 167, 167, 0.5);
+}
+
+#categoriesCol .mens {
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#categoriesCol .mens .menstitlepc img {
+  width: 100px;
+  height: 25px;
+}
+
+#categoriesCol .mens ul {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 92px;
+}
+
+#categoriesCol .mens li {
+  list-style: none;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-right: 25px;
+}
+
+#categoriesCol .mens li img {
+  width: 100px;
+  height: 100px;
+}
+
+#categoriesCol2 {
+  border-top: 4px solid rgba(167, 167, 167, 0.5);
+  border-bottom: 4px solid rgba(167, 167, 167, 0.5);
+}
+
+#categoriesCol2 .ladies {
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#categoriesCol2 .ladies .ladiestitlepc img {
+  width: 100px;
+  height: 25px;
+}
+
+#categoriesCol2 .ladies ul {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 92px;
+}
+
+#categoriesCol2 .ladies li {
+  list-style: none;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-right: 25px;
+}
+
+#categoriesCol2 .ladies li img {
+  width: 100px;
+  height: 100px;
 }
