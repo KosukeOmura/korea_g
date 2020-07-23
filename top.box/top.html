@@ -6,14 +6,38 @@
     <title>Korea_g[韓国グラム]</title>
     <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
     <link rel="stylesheet" href="top.css">
+    <link rel="stylesheet" href="hambargur.css">
 </head>
 <body>
+
+    <div class="categori-box">
+        <nav class="global-nav">
+            <ul class="global-nav__list">
+                <li class="global-nav__item"><a href="">HOME</a></li>
+                <li class="global-nav__item"><a href="">ABOUT</a></li>
+                <li class="global-nav__item"><a href="">BLOG</a></li>
+                <li class="global-nav__item"><a href="">CATEGORY</a></li>
+                <li class="global-nav__item"><a href="">CONTACT</a></li>
+                <li class="global-nav__item"><i class="fas fa-search"></i></li>
+                <li class="global-nav__item"><i class="fas fa-shopping-cart"></i></li>
+            </ul>
+        </nav>
+        <div class="hamburger" id="js-hamburger">
+            <span class="hamburger__line hamburger__line--1"></span>
+            <span class="hamburger__line hamburger__line--2"></span>
+            <span class="hamburger__line hamburger__line--3"></span>
+        </div>
+    <div class="black-bg" id="js-black-bg"></div>
+    </div>
+
+
+
     <div id="topbox">
         <div id="top-images">
             <img src="top.images/topleft1.png">
             <div class="right-top">
-            <i class="fas fa-search"></i>
-            <i class="fas fa-shopping-cart"></i>
+                <i class="fas fa-search"></i>
+                <i class="fas fa-shopping-cart"></i>
             </div>
         </div>
     </div>
@@ -36,11 +60,12 @@
             <!-- mainvisual ここから -->
             <!--========================================-->
             <ul>
-                    <img src="top.images/bgimage1.png" alt=" " class="slider_item slider_item1">
-                    <img src="top.images/topbg.2.png" alt=" " class="slider_item slider_item1">
-                    <img src="top.images/topbg3.png" alt=" " class="slider_item slider_item1">
+                    <img src="top.images/bgimage1.png" alt=" " id="slidershow">
+                    <img src="top.images/topbg3.png" alt=" " id="slidershow">
+                    <img src="top.images/topbg.2.png" alt=" " id="slidershow">
             </ul>
-            
+            <br>
+            <input type="button" value="開始/停止" id="startstopbtn">
         </div>
     </div>
 

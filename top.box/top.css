@@ -1,6 +1,7 @@
 @charset "UTF-8";
 body {
   max-width: 1200px;
+  width: 100%;
   margin: 0 auto;
 }
 
@@ -70,28 +71,37 @@ header #List-top a {
   display: flex;
 }
 
-.slider .slider2 .slider_item {
-  max-width: 1200px;
+.slider .slider2 #slidershow {
+  max-width: 100%;
   /* スライドを横一列に並べる */
 }
 
 #banner {
   max-width: 1200px;
+  margin-right: 10px;
+  margin-left: 10px;
 }
 
 #banner ul {
   padding: 0;
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: auto auto auto;
   margin: 0 auto;
   text-align: center;
-  flex-wrap: wrap;
   justify-content: space-between;
-  max-width: 1200px;
 }
 
 #banner li {
   list-style: none;
-  margin: 25px;
+  margin-bottom: 35px;
+  margin-left: 10px;
+}
+
+#banner img {
+  cursor: pointer;
+  transition: 0.5s;
+  width: 20vw;
 }
 
 /*カテゴリ*/
@@ -111,14 +121,14 @@ header #List-top a {
 }
 
 #categoriesCol .mens .menstitlepc img {
-  width: 100px;
-  height: 25px;
+  width: 10vw;
 }
 
 #categoriesCol .mens ul {
   display: flex;
   justify-content: space-between;
   margin-left: 92px;
+  padding: 0;
 }
 
 #categoriesCol .mens li {
@@ -129,8 +139,12 @@ header #List-top a {
 }
 
 #categoriesCol .mens li img {
-  width: 100px;
-  height: 100px;
+  width: 100%;
+  transition: 0.5s;
+}
+
+#categoriesCol .mens li img:hover {
+  transform: scale(1.1);
 }
 
 #categoriesCol2 {
@@ -146,14 +160,14 @@ header #List-top a {
 }
 
 #categoriesCol2 .ladies .ladiestitlepc img {
-  width: 100px;
-  height: 25px;
+  width: 10vw;
 }
 
 #categoriesCol2 .ladies ul {
   display: flex;
   justify-content: space-between;
   margin-left: 92px;
+  padding: 0;
 }
 
 #categoriesCol2 .ladies li {
@@ -164,6 +178,52 @@ header #List-top a {
 }
 
 #categoriesCol2 .ladies li img {
-  width: 100px;
-  height: 100px;
+  width: 100%;
+  transition: 0.5s;
+}
+
+#categoriesCol2 .ladies li img:hover {
+  transform: scale(1.1);
+}
+
+@media (max-width: 800px) {
+  header .brandname {
+    width: 30%;
+  }
+  #banner {
+    width: 100%;
+  }
+  #banner img {
+    width: 40vw;
+  }
+  #banner img:hover {
+    transform: scale(1.05);
+  }
+  #categoriesCol .mens {
+    display: block;
+  }
+  #categoriesCol .mens ul {
+    margin: 0 auto;
+  }
+  #categoriesCol .mens .menstitlepc {
+    text-align: center;
+  }
+  #categoriesCol2 .ladies {
+    display: block;
+  }
+  #categoriesCol2 .ladies ul {
+    margin: 0 auto;
+  }
+  #categoriesCol2 .ladies .ladiestitlepc {
+    text-align: center;
+  }
+  #banner ul {
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto auto auto;
+    margin: 0 auto;
+    text-align: center;
+    justify-content: space-between;
+  }
 }

@@ -1,7 +1,9 @@
 body {
-    max-width:1200px;
+    max-width: 1200px;
+    width:100%;
     margin: 0 auto;
 }
+
 #topbox {
     margin-top:40px;
     #top-images {
@@ -63,28 +65,43 @@ header {
             display: flex;
         }
 
-        .slider_item{
-            max-width: 1200px;
+        #slidershow{
+            max-width: 100%;
             /* スライドを横一列に並べる */
         }
     }
 
 }
 
+
+
+
 #banner {
     max-width: 1200px;
+    margin-right:10px;
+    margin-left: 10px;
+    
+
     ul{
         padding:0;
-        display: flex;
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        grid-template-rows:auto auto auto;
         margin: 0 auto;
         text-align: center;
-        flex-wrap:wrap;
         justify-content: space-between;
-        max-width: 1200px;
     }
     li{
         list-style:none;
-        margin: 25px;
+        margin-bottom: 35px;
+        margin-left:10px;
+    }
+    img{
+        
+        cursor:pointer;
+        transition:0.5s;
+        width: 20vw;
+        
     }
 }
 
@@ -104,8 +121,7 @@ header {
 
         .menstitlepc {
             img {
-                width: 100px;
-                height: 25px;
+                width: 10vw;
             }
         }
         
@@ -113,6 +129,7 @@ header {
             display: flex;
             justify-content: space-between;
             margin-left: 92px;
+            padding:0;
         }
 
         li{
@@ -122,8 +139,11 @@ header {
             margin-right: 25px;
             
             img{
-                width: 100px;
-                height: 100px;
+                width: 100%;
+                transition:0.5s;
+            }
+            img:hover {
+                transform: scale(1.1);
             }
         }
     }
@@ -141,8 +161,7 @@ header {
 
         .ladiestitlepc {
             img {
-                width: 100px;
-                height: 25px;
+                width: 10vw;
             }
         }
         
@@ -150,6 +169,7 @@ header {
             display: flex;
             justify-content: space-between;
             margin-left: 92px;
+            padding:0;
         }
 
         li{
@@ -159,9 +179,71 @@ header {
             margin-right: 25px;
             
             img{
-                width: 100px;
-                height: 100px;
+                width: 100%;
+                transition:0.5s;
             }
+            img:hover {
+                transform: scale(1.1);
+            }
+        }
+    }
+}
+
+
+@media  (max-width:800px){
+    // ブランドタグサイズ変更
+    header .brandname {
+        width:30%;
+    }
+
+    // トップ大画像サイズ変更
+    #banner {
+        width: 100%;
+
+        img{
+            width: 40vw;
+            
+        }
+        img:hover {
+            transform: scale(1.05);
+        }
+    }
+
+    // メンズレディースのカテゴリ欄配置変更
+    #categoriesCol .mens{
+        display:block;
+
+        ul{
+            margin:0 auto;
+        }
+
+        .menstitlepc{
+            text-align:center;
+        }
+    }
+    
+    #categoriesCol2 .ladies{
+        display:block;
+
+        ul{
+            margin:0 auto;
+        }
+
+        .ladiestitlepc{
+            text-align:center;
+        }
+    }
+    
+    // 黒画像カテゴリーグリッド2カラムに変更
+    #banner {
+        ul{
+            padding:0;
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            grid-template-rows:auto auto auto;
+            margin: 0 auto;
+            text-align: center;
+            justify-content: space-between;
         }
     }
 }
