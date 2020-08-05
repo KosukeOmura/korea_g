@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+}
+
+* a {
+  text-decoration: none;
+  color: black;
+}
+
+* li {
+  list-style: none;
+}
+
+
+.mask {
+  position: fixed;
+  top:0;
+  right:0;
+  z-index:1;
+  width:100%;
+  height:100%;
+  background:black;
+  opacity:0;
+  visibility:hidden;
+  transition:0.3s;
+  z-index:1;
+}
+.mask.active {
+  opacity:0.5;
+  visibility:visible;
+}
+
+
+#top-box {
+  position: relative;
+  height: 53px;
+  width: 100%;
+}
+#top-weight{
+  position: fixed;
+  height: 53px;
+  width: 100%;
+  background-color:black;
+  z-index:3;
+}
+
+
+#hamburger-menu {
+  display: block;
+  height: 53px;
+  width: 70px;
+  /* background: pink; */
+  position: fixed;
+  top: 0;
+  right: 5%;
+  z-index:3;
+}
+#hamburger-menu.active {
+  right:-1%;
+}
+
+#hamburger-menu .border1 {
+  height: 2px;
+  width: 25%;
+  background: rgb(212, 212, 212);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: 0.3s;
+}
+
+
+
+#hamburger-menu .border1:nth-of-type(1) {
+  transform: translate(-50%, -8px);
+}
+
+#hamburger-menu .border1:nth-of-type(3) {
+  transform: translate(-50%, 8px);
+}
+
+#hamburger-menu.active .border1:nth-of-type(1) {
+  transform: rotate(-45deg) translate(-77%, -15px);
+  background: rgb(78, 78, 78);
+  height:3px;
+}
+
+#hamburger-menu.active .border1:nth-last-of-type(2){
+  opacity:0;
+}
+
+#hamburger-menu.active .border1:nth-of-type(3) {
+  transform: rotate(45deg) translate(-80%, 14px);
+  background: rgb(78, 78, 78);
+  height:3px;
+}
+
+
+
+
+nav {
+  overflow: auto;
+  z-index:2;
+  opacity: 0;
+  transition: .3s;
+  position: fixed;
+  top:0;
+  right:0;
+  background:white;
+  width:300px;
+  height: 100vh;
+  max-height:100%;
+  box-shadow: 3px 0 0 black;
+  visibility: hidden;
+}
+nav ul {
+  margin:20% 12%;
+}
+nav ul li {
+  margin-bottom: 25px;
+  letter-spacing: 0.1em;
+}
+
+nav.active {
+  opacity: 1;
+  visibility: visible;
+}
+
+/* ナビ内CONTACT */
+.contactform{
+  margin-top:50px;
+  margin-bottom:50px;
+}
+/* ナビ内カートアイコン */
+#cartitems {
+  margin-bottom:50px;
+}

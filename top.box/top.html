@@ -5,45 +5,56 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Korea_g[韓国グラム]</title>
     <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
-    <link rel="stylesheet" href="top.css">
-    <link rel="stylesheet" href="hambargur.css">
+    <link rel="stylesheet" href="main.top.css/top.css">
+    <!-- ハンバーガーメニューcss -->
+    <link rel="stylesheet" href="hamburager/hambargur.css">
+
+    <!-- swiper css -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="top.swiper/swiper.css">
 </head>
 <body>
 
-    <div class="categori-box">
-        <nav class="global-nav">
-            <ul class="global-nav__list">
-                <li class="global-nav__item"><a href="">HOME</a></li>
-                <li class="global-nav__item"><a href="">ABOUT</a></li>
-                <li class="global-nav__item"><a href="">BLOG</a></li>
-                <li class="global-nav__item"><a href="">CATEGORY</a></li>
-                <li class="global-nav__item"><a href="">CONTACT</a></li>
-                <li class="global-nav__item"><i class="fas fa-search"></i></li>
-                <li class="global-nav__item"><i class="fas fa-shopping-cart"></i></li>
-            </ul>
-        </nav>
-        <div class="hamburger" id="js-hamburger">
-            <span class="hamburger__line hamburger__line--1"></span>
-            <span class="hamburger__line hamburger__line--2"></span>
-            <span class="hamburger__line hamburger__line--3"></span>
-        </div>
-    <div class="black-bg" id="js-black-bg"></div>
-    </div>
-
-
-
-    <div id="topbox">
-        <div id="top-images">
-            <img src="top.images/topleft1.png">
-            <div class="right-top">
-                <i class="fas fa-search"></i>
-                <i class="fas fa-shopping-cart"></i>
+    <!-- ハンバーガーメニュー開始 -->
+    <div class="mask" id="mask"></div>
+    <div id="top-box">
+        <div id="top-weight">
+            <div id="textanauns">
+                <div id="textanauns-images">
+                    <img src="top.images/freeshipping.png">
+                </div>
             </div>
+            <div id="hamburger-menu">
+                <div class="border1"></div>
+                <div class="border1"></div>
+                <div class="border1"></div>
+            </div>
+
+            <nav id="nav">
+                <ul>
+                    <li id="Arrow"><a href="">MENS</a></li>
+                    <li><a href="">LADIES</a></li>
+                    <li><a href="">UNISEX</a></li>
+                    <li><a href="">SALE</a></li>
+                    
+                    <div class="contactform">
+                        <a href="">CONTACT</a>
+                    </div>
+                    <div id="cartitems">
+                    <i class="fas fa-shopping-cart"></i>
+                    </div>
+                    <form id="x_itemSearchForm" class="itemSearch__form" action="" method="get">
+                        <input class="itemSearch__field jp_gothic" type="text" name="q" placeholder="SEARCH" value="">
+                        <button class="itemSearch__btn" type="submit"><i class="fas fa-search"></i></button>
+                    </form>
+                </ul>
+            </nav>
         </div>
     </div>
+    <!-- ハンバーガーメニュー終了 -->
 
     <header id="headerBOX">
-
     <img class="brandname" src="top.images/アア.png">
     
     <div id="List-top">
@@ -54,20 +65,29 @@
         </ul>
     </div>
     </header>
-    <div class="slider">
-        <div class="slider2">
-            <!--========================================-->
-            <!-- mainvisual ここから -->
-            <!--========================================-->
-            <ul>
-                    <img src="top.images/bgimage1.png" alt=" " id="slidershow">
-                    <img src="top.images/topbg3.png" alt=" " id="slidershow">
-                    <img src="top.images/topbg.2.png" alt=" " id="slidershow">
-            </ul>
-            <br>
-            <input type="button" value="開始/停止" id="startstopbtn">
-        </div>
+
+    <!-- スライダー開始 -->
+    <!-- Slider main container -->
+    <div class="swiper-container">
+        <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide"><img src="top.images/bgimage1.png"></div>
+                <div class="swiper-slide"><img src="top.images/topbg3.png"></div>
+                <div class="swiper-slide"><img src="top.images/topbg.2.png"></div>
+                ...
+            </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+    
+            <!-- If we need navigation buttons -->
+            <!-- <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div> -->
+    
+            <!-- If we need scrollbar -->
+            <div class="swiper-scrollbar"></div>
     </div>
+    <!-- スライダー終了 -->
 
     <div id="banner" class="grid">
         <ul>
@@ -85,7 +105,7 @@
     <div id="categories">
         <div id="categoriesCol">
             <div class="mens">
-                <p class="menstitlepc">
+                <p class="titlepc">
                     <img src="top.images/categories_ttl_mens.png">
                 </p>
                 <ul>
@@ -102,7 +122,7 @@
         </div>
         <div id="categoriesCol2">
             <div class="ladies">
-                <p class="ladiestitlepc">
+                <p class="titlepc">
                     <img src="top.images/categories_ttl_ladies.png">
                 </p>
                 <ul>
@@ -119,6 +139,12 @@
         </div>
     </div>
 
-    <script src="top-slider.js"></script>
+    <!-- swiper -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="top.swiper/slider.js/top-slider.js"></script>
+
+    <!-- ハンバーガーメニュー -->
+    <script src="hamburager/hambargur.js"></script>
 </body>
 </html>
