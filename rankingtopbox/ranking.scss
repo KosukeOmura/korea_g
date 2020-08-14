@@ -1,0 +1,50 @@
+#ranking {
+    max-width:100%;
+    text-align:center;
+    margin-top:150px;
+    h2{
+        text-align:center;
+        font-size:30px;
+        font-weight: bold;
+        font-family:'ヒラギノ角ゴ StdN','Hiragino Kaku Gothic StdN',sans-serif;
+        margin-bottom:50px;
+    }
+    .rankingtopNumber {
+        width:27vw;
+        height:30vw;
+        object-fit: cover;
+    }
+    .rankinglastNumber {
+        width:20vw;
+        object-fit: cover;
+        height:20vw;
+    }
+    .ttr {
+        margin-bottom:60px;
+        ul{
+            display:flex;
+            padding:0;
+            justify-content:center;
+            flex-direction: row;
+            flex-wrap:wrap;
+
+            .ttln {
+                margin-right:20px;
+                line-height:2vw;
+            }
+            .ttlo {
+                margin-right:20px;
+                line-height:2vw;
+            }
+        }
+    }
+    .rankingbox {
+        margin:0 auto;
+        border:1px solid rgb(85, 83, 83);
+        width: 30%;
+        p{
+            padding:10px;
+            text-align:center;
+        }
+    }
+}
