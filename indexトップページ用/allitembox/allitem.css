@@ -1,0 +1,54 @@
+@charset "UTF-8";
+#allitems {
+  max-width: 100%;
+  text-align: center;
+  margin-top: 80px;
+}
+
+#allitems h2 {
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: 'ヒラギノ角ゴ StdN','Hiragino Kaku Gothic StdN',sans-serif;
+}
+
+#allitems img {
+  width: 20vw;
+}
+
+#allitems #itembox {
+  margin: 30px 30px 50px 30px;
+}
+
+#allitems #itembox ul {
+  padding: 0;
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+#allitems #itembox ul li {
+  margin-right: 20px;
+  line-height: 2vw;
+}
+
+#allitems #itembox ul li h2 {
+  font-size: 10px;
+  font-family: 'ヒラギノ角ゴシック','Hiragino Sans','ヒラギノ角ゴシック','Hiragino Sans',sans-serif;
+}
+
+#allitems #itembox ul li p {
+  font-size: 10px;
+}
+
+#allitems .allitembox {
+  margin: 0 auto;
+  border: 1px solid #555353;
+  width: 30%;
+}
+
+#allitems .allitembox p {
+  padding: 10px;
+  text-align: center;
+}

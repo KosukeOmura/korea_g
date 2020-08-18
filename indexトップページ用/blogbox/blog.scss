@@ -1,0 +1,38 @@
+#blog {
+    max-width: 100%;
+    text-align:center;
+    margin-top:120px;
+    h2{
+        text-align:center;
+        font-size:30px;
+        font-weight: bold;
+        font-family:'ヒラギノ角ゴ StdN','Hiragino Kaku Gothic StdN',sans-serif;
+    }
+    img{
+        width:25vw;
+        object-fit: cover;
+        height:10vw;
+    }
+    #blogCol{
+        margin-top:50px;
+        ul{
+            display:flex;
+            padding:0;
+            justify-content:center;
+            // flex-direction: row;
+            // flex-wrap:wrap;
+            li{
+                margin-right:20px;
+                line-height:2vw;
+            }
+            h2{
+                font-size:14px;
+                font-weight:normal;
+                font-family: 'TsukuBRdGothic-Regular',sans-serif;
+            }
+            p{
+                font-size:8px;
+            }
+        }
+    }
+}

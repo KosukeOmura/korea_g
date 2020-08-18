@@ -1,0 +1,38 @@
+.latest-viewed-box {
+    max-width:100%;
+    margin-top:100px;
+    text-align:center;
+    .product-viewed{
+        display:flex;
+        margin:0 auto;
+        flex-direction: row;
+        justify-content:center;
+        img{
+            width:90%;
+        }
+        .productds{
+            margin-top:20px;
+            p{
+                font-size:12px;
+            }
+            .wol{
+                font-size:6px;
+                color:rgb(136, 134, 134);
+            }
+        }
+    }
+}
+
+.arrivalbox {
+    margin:30px auto 0 auto;
+    border:1px solid rgb(85, 83, 83);
+    width: 30%;
+    p{
+        padding:10px;
+        text-align:center;
+    }
+    a{//画面幅いっぱいにリンク拡張記述
+        display: block;
+        width: 100%;
+    }
+}

@@ -1,0 +1,65 @@
+.notes_group{
+    max-width:100%;
+    margin:180px auto 0 auto;
+    width:82%;
+}
+
+
+//ご利用ガイド部分
+.notes_wrap{
+    border: 1px solid rgb(155, 152, 152);
+    .notes_switch {
+        font-size:10px;
+        cursor: pointer;
+        padding:14px;
+    }
+    .fa-chevron-right{
+        padding-right:14px;
+        transition: 0.5s ;
+    }
+    .fa-chevron-right.active {
+        transform: translate(-6px, 7px)rotateZ(90deg);
+    }
+    .notes_switch:hover {
+        background-color: #eee;
+    }
+    .notes_contents {//最初は隠れている要素
+        font-size:12px;
+        display:none;
+        padding:50px;
+        background-color:rgba(209, 209, 209, 0.226);
+    }
+    .notes_contents.active {
+        display:block;
+    }
+}
+
+//お問い合わせ部分
+.customer_wrap{
+    border: 1px solid rgb(155, 152, 152);
+    .customer_switch {
+        font-size:10px;
+        cursor: pointer;
+        padding:14px;
+    }
+    .fa-chevron-left{
+        padding-right:14px;
+        transition: 0.5s ;
+        transform: rotate(180deg)translate(14px, -1px);
+    }
+    .fa-chevron-left.active {
+        transform: translate(-8px, -5px) rotateZ(-90deg);
+    }
+    .customer_switch:hover {
+        background-color: #eee;
+    }
+    .customer_contents {//最初は隠れている要素
+        font-size:12px;
+        display:none;
+        padding:50px;
+        background-color:rgba(209, 209, 209, 0.226);
+    }
+    .customer_contents.active {
+        display:block;
+    }
+}

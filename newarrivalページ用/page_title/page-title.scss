@@ -1,0 +1,26 @@
+.page_title {
+    max-width:100%;
+    width:82%;
+    margin:30px auto 0 auto;
+
+    h2 {
+        color: #444;
+        font-size: 24px;
+        display: flex;
+        align-items: center;
+    }
+
+    h2:before, h2:after {
+        content: "";
+        flex-grow: 1;
+        height: 1px;
+        background: rgb(161, 161, 161);
+        display: block;
+    }
+    h2:before {
+        margin-right: .4em;
+    }
+    h2:after {
+        margin-left: .4em;
+    }
+}

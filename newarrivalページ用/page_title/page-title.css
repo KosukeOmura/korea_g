@@ -1,0 +1,28 @@
+.page_title {
+  max-width: 100%;
+  width: 82%;
+  margin: 30px auto 0 auto;
+}
+
+.page_title h2 {
+  color: #444;
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+}
+
+.page_title h2:before, .page_title h2:after {
+  content: "";
+  flex-grow: 1;
+  height: 1px;
+  background: #a1a1a1;
+  display: block;
+}
+
+.page_title h2:before {
+  margin-right: .4em;
+}
+
+.page_title h2:after {
+  margin-left: .4em;
+}

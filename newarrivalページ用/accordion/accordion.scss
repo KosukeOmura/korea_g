@@ -1,0 +1,154 @@
+main{
+    max-width:100%;
+    width:82%;
+    margin:0 auto;
+    margin-top:30px;
+    font-family: "Century Gothic",sans-serif;
+    display:flex;
+    justify-content:center;
+
+    // 値段部分
+    .toggle_left{
+        width:100vw;
+        margin-left:10px;
+    }
+    .toggle_wrap{
+        .toggle_switch {
+        font-size:10px;
+        cursor: pointer;
+        border-bottom: 1px solid rgb(155, 152, 152);
+        }
+        .toggle_switch:hover {
+        background-color: #eee;
+        }
+        .toggle_contents {//最初は隠れている要素
+        font-size:12px;
+        display:block;
+        padding-top:10px;
+            ul{
+                padding:0;
+                padding-right:50px;
+                li {
+                    position: relative;
+                    list-style-type: none!important;/*ポチ消す*/
+                    padding: 0.5em 0.5em 0.5em 0.5em;
+                    margin-bottom: 5px;
+                    line-height: 1.5;
+                    background: #f8dbf8;
+                    vertical-align: middle;
+                    color: #8b8989;
+                    border-radius: 15px 0px 0px 15px;/*左側の角丸く*/
+                }
+                li:before{ 
+                    display:inline-block; 
+                    vertical-align: middle;
+                    /*以下白丸つくる*/
+                    content:'';
+                    width:1em;
+                    height: 1em;
+                    background: #fff;
+                    border-radius: 50%;
+                }
+            }
+        }
+        .toggle_contents.active {
+            display:none;
+        }
+    }
+    //カテゴリー部分
+    .filtter_wrap{
+        display:inline;
+        width:20%;
+        margin-left:10px;
+        .filtter_switch {
+        font-size:10px;
+        cursor: pointer;
+        border-bottom: 1px solid rgb(155, 152, 152);
+        }
+        .filtter_switch:hover {
+        background-color: #eee;
+        }
+        .filtter_box {//最初は隠れている要素
+        font-size:14px;
+        display:block;
+        padding-top:10px;
+            ul{
+                padding:0;
+                padding-right:50px;
+                li {
+                    position: relative;
+                    list-style-type: none!important;/*ポチ消す*/
+                    padding: 0.5em 0.5em 0.5em 0.5em;
+                    margin-bottom: 5px;
+                    line-height: 1.5;
+                    vertical-align: middle;
+                    color: #a3a2a2;
+                    border-radius: 15px 0px 0px 15px;/*左側の角丸く*/
+                }
+                li:before{ 
+                    display:inline-block; 
+                    vertical-align: middle;
+                    /*以下白丸つくる*/
+                    content:'';
+                    margin-right:5px;
+                    width:1em;
+                    height: 1em;
+                    background: rgb(255, 255, 255);
+                    border-radius: 50%;
+                    border:0.1px solid rgb(224, 223, 223);
+                }
+            }
+        }
+        .filtter_box.active {
+            display:none;
+        }
+    }
+    //商品部分
+    #newArrival {
+        img {
+            width:14vw;
+            margin-right:15px;
+        }
+        .recommendCol {
+            ul{
+                padding:0;
+                justify-content:flex-end;
+                display:flex;
+                flex-direction: row;
+                flex-wrap:wrap;
+                li{
+                    line-height:2vw;
+                    display:block;
+                }
+            }
+            h2 {
+                
+                text-align:center;
+                line-height:1;
+                max-width:100%;
+                width:90%;
+                font-size:10px;
+                font-family: 'ヒラギノ角ゴシック','Hiragino Sans','ヒラギノ角ゴシック','Hiragino Sans',sans-serif;
+            }
+            p{
+                text-align:center;
+                font-size:10px;
+            }
+            margin-bottom:50px;
+        }
+    
+        .arrivalbox {
+            margin:0 auto;
+            border:1px solid rgb(85, 83, 83);
+            width: 30%;
+            p{
+                padding:10px;
+                text-align:center;
+            }
+            a{//画面幅いっぱいにリンク拡張記述
+                display: block;
+                width: 100%;
+            }
+        }
+    }
+}

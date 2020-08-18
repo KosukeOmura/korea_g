@@ -1,0 +1,23 @@
+footer{
+    margin:100px 40px;
+    display:flex;
+    justify-content: space-between;
+    .leftfooter{
+        img{
+            width:1vw;
+        }
+        p{
+            display:inline;
+            font-size:6px;
+            font-family: 'TsukuBRdGothic-Regular',sans-serif;
+        }
+    }
+    .rightfooter {
+        font-size:14px;
+        margin-right:40px;
+        a {
+            padding-right:30px;
+            font-family: 'TsukuBRdGothic-Regular',sans-serif;
+        }
+    }
+}

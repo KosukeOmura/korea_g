@@ -1,0 +1,54 @@
+#newArrival {
+    max-width:100%;
+    text-align:center;
+    margin-top:80px;
+
+    h2{
+        text-align:center;
+        font-size:30px;
+        font-weight: bold;
+        font-family:'ヒラギノ角ゴ StdN','Hiragino Kaku Gothic StdN',sans-serif;
+    }
+    img {
+        width:20vw;
+    }
+    .recommendCol {
+        margin-left:30px;
+        margin-right:30px;
+        text-align:center;
+        margin-top:30px;
+        ul{
+            padding:0;
+            justify-content:center;
+            display:flex;
+            flex-direction: row;
+            flex-wrap:wrap;
+            li{
+                margin-right:20px;
+                line-height:2vw;
+            }
+        }
+        h2 {
+            font-size:10px;
+            font-family: 'ヒラギノ角ゴシック','Hiragino Sans','ヒラギノ角ゴシック','Hiragino Sans',sans-serif;
+        }
+        p{
+            font-size:10px;
+        }
+        margin-bottom:50px;
+    }
+
+    .arrivalbox {
+        margin:0 auto;
+        border:1px solid rgb(85, 83, 83);
+        width: 30%;
+        p{
+            padding:10px;
+            text-align:center;
+        }
+        a{//画面幅いっぱいにリンク拡張記述
+            display: block;
+            width: 100%;
+        }
+    }
+}
