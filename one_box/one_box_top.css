@@ -1,0 +1,80 @@
+.one_main {
+    max-width:100%;
+    width:82%;
+    margin:0 auto;
+    margin-top:130px;
+    font-family: Arial, Helvetica, Verdana, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", メイリオ, Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+    display:flex;
+    justify-content:center;
+}
+
+.main_left_image {
+
+
+}
+.main_left_image img {
+    width:30vw;
+    height:70vh;
+    overflow: hidden;
+    object-fit: cover;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+
+}
+
+.main_right_box {
+    margin-left:75px;
+}
+
+.item_title {
+    margin-bottom:20px;
+}
+.item_title h2 {
+    font-size:20px;
+}
+
+.item_price {
+    margin-bottom:20px;
+
+}
+
+.item_price p {
+    font-size:18px;
+}
+
+.item_price_details {
+    margin-bottom:20px;
+}
+.item_price_details p {
+    font-size:12px;
+}
+
+.cart_button {
+    margin-top:60px;
+}
+.cart_button input {
+    padding:2vh 10vw;
+    background:#545252;
+    color:#fff;
+    border: none;
+    outline: none;
+    box-shadow:  0 0 8px gray;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.cart_button input:hover {
+    transition: 1s;
+    background: rgb(127, 127, 127);
+}
+
+.clearfix {
+    margin-top:80px;
+
+}
+.clearfix p {
+    max-width:80%;
+    /* 自動改行 */
+    white-space: pre-wrap;
+}

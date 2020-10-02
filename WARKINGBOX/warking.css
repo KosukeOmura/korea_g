@@ -1,0 +1,62 @@
+.warking_title {
+    max-width:100%;
+    width:60vw;
+    height:auto;
+    margin:0 auto;
+}
+
+.Q_A h1 {
+    margin-top:100px;
+    text-align:center;
+}
+
+.warking_box {
+    margin-top:60px;
+}
+
+.warking_box p {
+    /* 自動改行 */
+    white-space: pre-wrap;
+}
+
+
+
+/* バツ */
+
+#hamburger-menu {
+    display: block;
+    height: 100px;
+    width: 90px;
+    /* background: pink; */
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index:3;
+    cursor:pointer;
+  }
+  
+  #hamburger-menu .border1 {
+    height: 2px;
+    width: 25%;
+    background: rgb(78, 77, 77);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: 0.3s;
+  }
+  
+  #hamburger-menu .border1:hover {
+    background: rgb(221, 222, 222);
+  }
+  
+  
+  #hamburger-menu .border1:nth-of-type(1) {
+    transform: rotate(38deg);
+  }
+  
+  #hamburger-menu .border1:nth-of-type(2) {
+    transform: rotate(130deg);
+  }
+  
+  

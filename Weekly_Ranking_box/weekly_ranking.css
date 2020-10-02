@@ -1,0 +1,70 @@
+@charset "UTF-8";
+main {
+  max-width: 100%;
+  width: 82%;
+  margin: 0 auto;
+  margin-top: 30px;
+  font-family: "Century Gothic",sans-serif;
+  display: flex;
+  justify-content: center;
+}
+
+
+
+main .filtter_wrap .filtter_box.active {
+  display: none;
+}
+
+main #newArrival img {
+  width: 18vw;
+  height:46vh;
+  margin-right: 1vw;
+  object-fit:cover;
+}
+
+main #newArrival .recommendCol {
+  margin-bottom: 50px;
+}
+
+main #newArrival .recommendCol ul {
+  padding: 0;
+  justify-content: flex-end;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+main #newArrival .recommendCol ul li {
+  line-height: 2vw;
+  display: block;
+}
+
+main #newArrival .recommendCol h2 {
+  text-align: center;
+  line-height: 1;
+  max-width: 100%;
+  width: 90%;
+  font-size: 10px;
+  font-family: 'ヒラギノ角ゴシック','Hiragino Sans','ヒラギノ角ゴシック','Hiragino Sans',sans-serif;
+}
+
+main #newArrival .recommendCol p {
+  text-align: center;
+  font-size: 10px;
+}
+
+main #newArrival .arrivalbox {
+  margin: 0 auto;
+  border: 1px solid #555353;
+  width: 30%;
+}
+
+main #newArrival .arrivalbox p {
+  padding: 10px;
+  text-align: center;
+}
+
+main #newArrival .arrivalbox a {
+  display: block;
+  width: 100%;
+}

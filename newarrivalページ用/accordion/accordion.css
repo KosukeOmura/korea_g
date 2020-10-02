@@ -10,7 +10,8 @@ main {
 }
 
 main .toggle_left {
-  width: 100vw;
+  max-width:100%;
+  width:40vw;
   margin-left: 10px;
 }
 

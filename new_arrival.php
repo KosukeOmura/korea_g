@@ -6,7 +6,7 @@
     <title>Korea_g[韓国グラム]</title>
     <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
     <link rel="stylesheet" href="indexトップページ用/main.top.css/top.css">
-    <link rel="stylesheet" href="indexトップページ用/newarrivalbox/newarrival.css">
+    <!-- <link rel="stylesheet" href="indexトップページ用/newarrivalbox/newarrival.css"> -->
     <link rel="stylesheet" href="indexトップページ用/rankingtopbox/ranking.css">
     <link rel="stylesheet" href="indexトップページ用/allitembox/allitem.css">
     <link rel="stylesheet" href="indexトップページ用/blogbox/blog.css">
@@ -70,7 +70,7 @@
     
         <!-- ヘッダーブランドロゴ段スタート -->
         <header id="headerBOX">
-            <a href="index.html">
+            <a href="index.php">
                 <img class="brandname" src="indexトップページ用/top.images/アア.png">
             </a>
         
@@ -85,44 +85,41 @@
 
         <!-- カテゴリリストボックススタート -->
         <div id="categories">
-            <div class="categoryimg">
-            <img src="newarrivalページ用/categories/images/カテゴリ.png">
-            </div>
-            <div id="categoriesCol">
-                <div class="mens">
-                    <p class="titlepc">
-                        <img src="indexトップページ用/top.images/categories_ttl_mens.png">
-                    </p>
-                    <ul>
-                        <li class="cm1"><a href="#"><img src="indexトップページ用/top.images/categories_tops.png"></a></li>
-                        <li><a href="#"><img src="indexトップページ用/top.images/categories_outer.png"></a></li>
-                        <li><a href="#"><img src="indexトップページ用/top.images/categories_bottoms.png"></a></li>
-                        <li><a href="#"><img src="indexトップページ用/top.images/categories_setup.png"></a></li>
-                        <li><a href="#"><img src="indexトップページ用/top.images/categories_other.png"></a></li>
-                        <li><a href="#"><img src="indexトップページ用/top.images/categories_shoes.png"></a></li>
-                        <li><a href="#"><img src="indexトップページ用/top.images/categories_goods.png"></a></li>
-                        <li><a href="#"><img src="indexトップページ用/top.images/categories_bag.png"></a></li>
-                    </ul>
-                </div>
-            </div>
-            <div id="categoriesCol2">
-                <div class="ladies">
-                    <p class="titlepc">
-                        <img src="indexトップページ用/top.images/categories_ttl_ladies.png">
-                    </p>
-                    <ul>
-                        <li><a href="#"><img src="indexトップページ用/top.images/categories_tops.png"></a></li>
-                        <li><a href="#"><img src="indexトップページ用/top.images/categories_outer.png"></a></li>
-                        <li><a href="#"><img src="indexトップページ用/top.images/categories_bottoms_ladies.png"></a></li>
-                        <li><a href="#"><img src="indexトップページ用/top.images/categories_setup.png"></a></li>
-                        <li><a href="#"><img src="indexトップページ用/top.images/categories_other.png"></a></li>
-                        <li><a href="#"><img src="indexトップページ用/top.images/categories_shoes.png"></a></li>
-                        <li><a href="#"><img src="indexトップページ用/top.images/categories_goods.png"></a></li>
-                        <li><a href="#"><img src="indexトップページ用/top.images/categories_bag.png"></a></li>
-                    </ul>
-                </div>
+        <div id="categoriesCol">
+            <div class="mens">
+                <p class="titlepc">
+                    <img src="indexトップページ用/top.images/categories_ttl_mens.png">
+                </p>
+                <ul>
+                    <li><a href="Category/MENS/tops.php"><img src="indexトップページ用/top.images/categories_tops.png"></a></li>
+                    <li><a href="Category/MENS/outer.php"><img src="indexトップページ用/top.images/categories_outer.png"></a></li>
+                    <li><a href="Category/MENS/bottoms.php"><img src="indexトップページ用/top.images/categories_bottoms.png"></a></li>
+                    <li><a href="Category/MENS/set_up.php"><img src="indexトップページ用/top.images/categories_setup.png"></a></li>
+                    <li><a href="Category/MENS/other.php"><img src="indexトップページ用/top.images/categories_other.png"></a></li>
+                    <li><a href="Category/MENS/shoes.php"><img src="indexトップページ用/top.images/categories_shoes.png"></a></li>
+                    <li><a href="Category/MENS/goods.php"><img src="indexトップページ用/top.images/categories_goods.png"></a></li>
+                    <li><a href="Category/MENS/bag.php"><img src="indexトップページ用/top.images/categories_bag.png"></a></li>
+                </ul>
             </div>
         </div>
+        <div id="categoriesCol2">
+            <div class="ladies">
+                <p class="titlepc">
+                    <img src="indexトップページ用/top.images/categories_ttl_ladies.png">
+                </p>
+                <ul>
+                    <li><a href="Category/LADIES/tops.php"><img src="indexトップページ用/top.images/categories_tops.png"></a></li>
+                    <li><a href="Category/LADIES/outer.php"><img src="indexトップページ用/top.images/categories_outer.png"></a></li>
+                    <li><a href="Category/LADIES/bottoms.php"><img src="indexトップページ用/top.images/categories_bottoms_ladies.png"></a></li>
+                    <li><a href="Category/LADIES/set_up.php"><img src="indexトップページ用/top.images/categories_setup.png"></a></li>
+                    <li><a href="Category/LADIES/other.php"><img src="indexトップページ用/top.images/categories_other.png"></a></li>
+                    <li><a href="Category/LADIES/shoes.php"><img src="indexトップページ用/top.images/categories_shoes.png"></a></li>
+                    <li><a href="Category/LADIES/goods.php"><img src="indexトップページ用/top.images/categories_goods.png"></a></li>
+                    <li><a href="Category/LADIES/bag.php"><img src="indexトップページ用/top.images/categories_bag.png"></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
         <!-- ページタイトル名 -->
         <div class="page_title">
             <h2>New Arrivals</h2>
@@ -209,146 +206,57 @@
                 <div id="newArrival">
                     <div class="recommendCol">
                         <ul>
-                            <li class="column">
-                                <a href="">
-                                    <img src="indexトップページ用/newarrivalbox/image/625b9c2ccdedac4045c9455fc281a527.jpg">
-                                    <h2>ワンショルホワイトオーバーオール　L1571</h2>
-                                    <p>¥3,150</p>
-                                </a>
-                            </li>
-                            <li class="column">
-                                <a href="">
-                                    <img src="indexトップページ用/newarrivalbox/image/625b9c2ccdedac4045c9455fc281a527.jpg">
-                                    <h2>ワンショルホワイトオーバーオール　L1571</h2>
-                                    <p>¥3,150</p>
-                                </a>
-                            </li>
-                            <li class="column">
-                                <a href="">
-                                    <img src="indexトップページ用/newarrivalbox/image/625b9c2ccdedac4045c9455fc281a527.jpg">
-                                    <h2>ワンショルホワイトオーバーオール　L1571</h2>
-                                    <p>¥3,150</p>
-                                </a>
-                            </li>
-                            <li class="column">
-                                <a href="">
-                                    <img src="indexトップページ用/newarrivalbox/image/625b9c2ccdedac4045c9455fc281a527.jpg">
-                                    <h2>ワンショルホワイトオーバーオール　L1571</h2>
-                                    <p>¥3,150</p>
-                                </a>
-                            </li>
-                            <li class="column">
-                                <a href="">
-                                    <img src="indexトップページ用/newarrivalbox/image/625b9c2ccdedac4045c9455fc281a527.jpg">
-                                    <h2>ワンショルホワイトオーバーオール　L1571</h2>
-                                    <p>¥3,150</p>
-                                </a>
-                            </li>
-                            <li class="column">
-                                <a href="">
-                                    <img src="indexトップページ用/newarrivalbox/image/625b9c2ccdedac4045c9455fc281a527.jpg">
-                                    <h2>ワンショルホワイトオーバーオール　L1571</h2>
-                                    <p>¥3,150</p>
-                                </a>
-                            </li>
-                            <li class="column">
-                                <a href="">
-                                    <img src="indexトップページ用/newarrivalbox/image/625b9c2ccdedac4045c9455fc281a527.jpg">
-                                    <h2>ワンショルホワイトオーバーオール　L1571</h2>
-                                    <p>¥3,150</p>
-                                </a>
-                            </li>
-                            <li class="column">
-                                <a href="">
-                                    <img src="indexトップページ用/newarrivalbox/image/625b9c2ccdedac4045c9455fc281a527.jpg">
-                                    <h2>ワンショルホワイトオーバーオール　L1571</h2>
-                                    <p>¥3,150</p>
-                                </a>
-                            </li>
-                            <li class="column">
-                                <a href="">
-                                    <img src="indexトップページ用/newarrivalbox/image/625b9c2ccdedac4045c9455fc281a527.jpg">
-                                    <h2>ワンショルホワイトオーバーオール　L1571</h2>
-                                    <p>¥3,150</p>
-                                </a>
-                            </li>
-                            <li class="column">
-                                <a href="">
-                                    <img src="indexトップページ用/newarrivalbox/image/625b9c2ccdedac4045c9455fc281a527.jpg">
-                                    <h2>ワンショルホワイトオーバーオール　L1571</h2>
-                                    <p>¥3,150</p>
-                                </a>
-                            </li>
-                            <li class="column">
-                                <a href="">
-                                    <img src="indexトップページ用/newarrivalbox/image/625b9c2ccdedac4045c9455fc281a527.jpg">
-                                    <h2>ワンショルホワイトオーバーオール　L1571</h2>
-                                    <p>¥3,150</p>
-                                </a>
-                            </li>
-                            <li class="column">
-                                <a href="">
-                                    <img src="indexトップページ用/newarrivalbox/image/625b9c2ccdedac4045c9455fc281a527.jpg">
-                                    <h2>ワンショルホワイトオーバーオール　L1571</h2>
-                                    <p>¥3,150</p>
-                                </a>
-                            </li>
-                            <li class="column">
-                                <a href="">
-                                    <img src="indexトップページ用/newarrivalbox/image/625b9c2ccdedac4045c9455fc281a527.jpg">
-                                    <h2>ワンショルホワイトオーバーオール　L1571</h2>
-                                    <p>¥3,150</p>
-                                </a>
-                            </li>
-                            <li class="column">
-                                <a href="">
-                                    <img src="indexトップページ用/newarrivalbox/image/625b9c2ccdedac4045c9455fc281a527.jpg">
-                                    <h2>ワンショルホワイトオーバーオール　L1571</h2>
-                                    <p>¥3,150</p>
-                                </a>
-                            </li>
-                            <li class="column">
-                                <a href="">
-                                    <img src="indexトップページ用/newarrivalbox/image/625b9c2ccdedac4045c9455fc281a527.jpg">
-                                    <h2>ワンショルホワイトオーバーオール　L1571</h2>
-                                    <p>¥3,150</p>
-                                </a>
-                            </li>
-                            <li class="column">
-                                <a href="">
-                                    <img src="indexトップページ用/newarrivalbox/image/625b9c2ccdedac4045c9455fc281a527.jpg">
-                                    <h2>ワンショルホワイトオーバーオール　L1571</h2>
-                                    <p>¥3,150</p>
-                                </a>
-                            </li>
-                            <li class="column">
-                                <a href="">
-                                    <img src="indexトップページ用/newarrivalbox/image/625b9c2ccdedac4045c9455fc281a527.jpg">
-                                    <h2>ワンショルホワイトオーバーオール　L1571</h2>
-                                    <p>¥3,150</p>
-                                </a>
-                            </li>
-                            <li class="column">
-                                <a href="">
-                                    <img src="indexトップページ用/newarrivalbox/image/625b9c2ccdedac4045c9455fc281a527.jpg">
-                                    <h2>ワンショルホワイトオーバーオール　L1571</h2>
-                                    <p>¥3,150</p>
-                                </a>
-                            </li>
-                            <li class="column">
-                                <a href="">
-                                    <img src="indexトップページ用/newarrivalbox/image/625b9c2ccdedac4045c9455fc281a527.jpg">
-                                    <h2>ワンショルホワイトオーバーオール　L1571</h2>
-                                    <p>¥3,150</p>
-                                </a>
-                            </li>
-                            <li class="column">
-                                <a href="">
-                                    <img src="indexトップページ用/newarrivalbox/image/625b9c2ccdedac4045c9455fc281a527.jpg">
-                                    <h2>ワンショルホワイトオーバーオール　L1571</h2>
-                                    <p>¥3,150</p>
-                                </a>
-                            </li>
+                            <?php
+                                ini_set("display_errors",On);
+
+                                define('DB_DATABASE','ecsite');
+                                define('DB_USERNAME','eckosuke');
+                                define('DB_PASSWORD','komazawataxidesu');
+                                define('PDO_DSN','mysql:host=localhost;dbname=' . DB_DATABASE);
+
+                                try {
+                                    $db = new PDO(PDO_DSN,DB_USERNAME,DB_PASSWORD);
+
+                                    $db->setAttribute(PDO::ATTR_ERRMODE,PDO::ERRMODE_EXCEPTION);
+
+                                    $sql = 'SELECT code,name,image,item_text,price,stock_item FROM item_box WHERE 1';
+                                    $stmt = $db->prepare($sql);
+                                    $stmt->execute();
+
+                                    $db = null;
+
+                                    while(true) {
+                                        $rec = $stmt->fetch(PDO::FETCH_ASSOC);
+
+                                        if($rec == false) {
+                                            break;
+                                        }
+                                    echo '<li class="column">';
+                                    echo '<a href="one_box/one_box.php?pro_code='.$rec['code'].'">';
+                                    if($rec['image'] == '') {
+                    
+                                        $pro_image_name[]='';
+                                    } else {
+                                    echo  $pro_image_name[]='<img src="./image/'.$rec['image'].'">';
+                                    }
+                                    echo '<h2>'.$rec['name'].'</h2>';
+                                    echo '<p>'.$rec['price'].'</p>';
+                                    echo '</a>';
+                                    echo '</li>';
+                                    
+                                    }
+
+
+                                }catch(Exception $e) {
+
+                                    echo 'ただいまメンテナンス中';
+                                    exit();
+                                }
+
+
+
+                             ?>
+                            
                         </ul>
                     </div>
                     <div class="arrivalbox">
