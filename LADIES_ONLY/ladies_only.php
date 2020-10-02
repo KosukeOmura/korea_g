@@ -83,6 +83,9 @@
 
         <!-- カテゴリリストボックススタート -->
         <div id="categories">
+        <div class="categoryimg">
+            <img src="newarrivalページ用/categories/images/カテゴリ.png">
+            </div>
         <div id="categoriesCol">
             <div class="mens">
                 <p class="titlepc">
@@ -207,10 +210,15 @@
                             <?php
                                 ini_set("display_errors",On);
 
-                                define('DB_DATABASE','ecsite');
-                                define('DB_USERNAME','eckosuke');
-                                define('DB_PASSWORD','komazawataxidesu');
-                                define('PDO_DSN','mysql:host=localhost;dbname=' . DB_DATABASE);
+// define('DB_DATABASE','ecsite');
+// define('DB_USERNAME','eckosuke');
+// define('DB_PASSWORD','komazawataxidesu');
+// define('PDO_DSN','mysql:host=localhost;dbname=' . DB_DATABASE);
+
+define('DB_DATABASE','heroku_5534de34baddda1');
+define('DB_USERNAME','b8543e85d3857f');
+define('DB_PASSWORD','cf9f4cd2');
+define('PDO_DSN','mysql:host=us-cdbr-east-02.cleardb.com;dbname=' . DB_DATABASE);
 
                                 try {
                                     $db = new PDO(PDO_DSN,DB_USERNAME,DB_PASSWORD);
