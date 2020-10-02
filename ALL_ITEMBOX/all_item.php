@@ -88,9 +88,9 @@
 
         <!-- カテゴリリストボックススタート -->
         <div id="categories">
-            <div class="categoryimg">
-            <img src="../newarrivalページ用/categories/images/カテゴリ.png">
-            </div>
+        <div class="categoryimg">
+            <img src="../image/category.png">
+        </div>
             <div id="categories">
             <div id="categoriesCol">
             <div class="mens">
