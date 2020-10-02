@@ -359,7 +359,7 @@ define('PDO_DSN','mysql:host=us-cdbr-east-02.cleardb.com;dbname=' . DB_DATABASE)
 
     <!-- SNSスタート -->
     <div class="snsbox">
-        <h2><a href=""><img src="indexトップページ用/snsbox/image/アートボード 1.png"></a>Instagram </h2>
+        <h2><a href=""><img src="image/instagram.png"></a>Instagram </h2>
         <script src="https://snapwidget.com/js/snapwidget.js"></script>
         <iframe src="https://snapwidget.com/embed/862627" class="snapwidget-widget" allowtransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden;  width:100%; "></iframe>
     </div>
