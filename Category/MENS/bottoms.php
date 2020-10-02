@@ -103,9 +103,6 @@ define('PDO_DSN','mysql:host=us-cdbr-east-02.cleardb.com;dbname=' . DB_DATABASE)
         <div class="categoryimg">
         <img src="../../image/category.png">
         </div>
-            <div class="categoryimg">
-            <img src="../../newarrivalページ用/categories/images/カテゴリ.png">
-            </div>
             <div id="categoriesCol">
                 <div class="mens">
                     <p class="titlepc">
