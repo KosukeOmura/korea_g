@@ -24,8 +24,8 @@
 .arrow_down::before,
 .arrow_up::before {
   top: auto;
-  left: 2px;
-  bottom: 25px;
+  left: 14px;
+  bottom: -45px;
   width: 10px;
   height: 10px;
   border-top: 3px solid #fff;
@@ -47,10 +47,10 @@
 }
 
 @media screen and (max-width: 767px) {
-  #btn-backtotop {
+  /* #btn-backtotop {
     bottom: 10px;
     right: 5px;
-  }
+  } */
 }
 
 #btn-backtotop.fadein {
@@ -63,9 +63,9 @@
 }
 
 @media screen and (max-width: 767px) {
-  #btn-backtotop:hover {
+  /* #btn-backtotop:hover {
     bottom: 10px;
-  }
+  } */
 }
 
 #btn-backtotop:hover::after {
@@ -73,9 +73,9 @@
 }
 
 @media screen and (max-width: 767px) {
-  #btn-backtotop:hover::after {
+  /* #btn-backtotop:hover::after {
     box-shadow: none;
-  }
+  } */
 }
 
 #btn-backtotop::after {
@@ -94,9 +94,9 @@
 }
 
 @media screen and (max-width: 767px) {
-  #btn-backtotop::after {
+  /* #btn-backtotop::after {
     width: 40px;
-    height: 40px;
+    height: 40px; */
   }
 }
 
@@ -106,10 +106,10 @@
 }
 
 @media screen and (max-width: 767px) {
-  #btn-backtotop .arrow {
+  /* #btn-backtotop .arrow {
     top: 46px;
     left: -1px;
-  }
+  } */
 }
 
 #btn-backtotop .arrow::before {
@@ -119,8 +119,25 @@
 }
 
 @media screen and (max-width: 767px) {
-  #btn-backtotop .arrow::before {
+  /* #btn-backtotop .arrow::before {
     width: 10px;
     height: 10px;
-  }
+  } */
+}
+
+@media screen and (max-width: 767px) {
+  /* .arrow_down::before,
+  .arrow_up::before {
+    position:fixed;
+    top: 92vh;
+    left: 95.2vw;
+    bottom: 25px;
+    width: 10px;
+    height: 10px;
+    border-top: 3px solid red;
+    border-right: 3px solid red;
+    transform: rotate(-45deg);
+
+
+  } */
 }

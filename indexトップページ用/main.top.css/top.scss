@@ -166,3 +166,25 @@ header {
 }
 
 
+@media (min-width: 680px) and (max-width: 900px) {
+    /* ここに幅が680px～960pxまでの CSS を記述 */
+
+    #categoriesCol {
+
+         /* 縦方向のスクロールバーを表示 */
+         overflow-x: auto;
+         /* IE などのスクロールバーの色設定 */
+         scrollbar-face-color: #999;
+         scrollbar-track-color: #eee;
+         /* スマホ用の慣性スクロール */
+         -webkit-overflow-scrolling: touch;
+ 
+    }
+
+
+}
+
+
+@media (max-width: 679px) {
+
+}

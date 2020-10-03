@@ -15,3 +15,13 @@
 .snsbox img {
   width: 2vw;
 }
+
+
+@media (max-width: 768px) {
+
+  .snapwidget-widget {
+    max-width: 80%;
+  }
+
+
+}

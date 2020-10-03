@@ -23,3 +23,14 @@ footer .rightfooter a {
   padding-right: 30px;
   font-family: 'TsukuBRdGothic-Regular',sans-serif;
 }
+
+
+@media (max-width: 768px) {
+
+  footer .rightfooter {
+    font-size: 1vw;
+    margin-right: 40px;
+  }
+
+
+}

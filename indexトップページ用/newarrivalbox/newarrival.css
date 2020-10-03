@@ -61,3 +61,24 @@
   display: block;
   width: 100%;
 }
+
+
+@media (max-width: 768px) {
+  #newArrival img {
+    width: 40vw;
+  }
+
+  #newArrival .recommendCol ul li {
+    margin-right: 20px;
+    margin-bottom:20px;
+    line-height: 2vw;
+  }
+
+  #newArrival .recommendCol ul li h2 {
+    margin:10px;
+  }
+  #newArrival .recommendCol ul li p {
+    margin:10px;
+  }
+
+}

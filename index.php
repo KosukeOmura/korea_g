@@ -199,8 +199,9 @@ define('PDO_DSN','mysql:host=us-cdbr-east-02.cleardb.com;dbname=' . DB_DATABASE)
                                     } else {
                                     echo  $pro_image_name[]='<img src="./image/'.$rec['image'].'">';
                                     }
-                                    echo '<h2>'.$rec['name'].'</h2>';
-                                    echo '<p>'.$rec['price'].'</p>';
+                                    echo '<h2>'.$rec['name'].'</h2>';?>
+                                     <p>¥<?php echo  $rec['price']; ?></p>
+                                    <?php
                                     echo '</li>';
                                     echo '</a>';
                                     

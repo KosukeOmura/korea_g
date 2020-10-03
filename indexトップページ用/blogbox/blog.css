@@ -42,3 +42,25 @@
 #blog #blogCol ul p {
   font-size: 8px;
 }
+
+
+
+@media (max-width: 768px) {
+
+
+  #blog img {
+    width: 28vw;
+    object-fit: cover;
+    height: 10vw;
+  }
+
+  #blog #blogCol ul h2 {
+    font-size: 1vw;
+    font-weight: normal;
+    font-family: 'TsukuBRdGothic-Regular',sans-serif;
+  }
+
+  #blog #blogCol ul p {
+    font-size: 0.7vw;
+  }
+}
