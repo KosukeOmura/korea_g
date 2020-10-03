@@ -82,3 +82,24 @@
   }
 
 }
+
+@media (max-width: 580px) {
+
+  #newArrival img {
+    width: 30vw;
+  }
+
+  #newArrival .recommendCol ul li {
+    margin-right: 10px;
+    margin-bottom:20px;
+    line-height: 2vw;
+  }
+
+  #newArrival .recommendCol ul li h2 {
+    margin:6px;
+  }
+  #newArrival .recommendCol ul li p {
+    margin:4px;
+  }
+
+}
