@@ -31,6 +31,7 @@
 #allitems #itembox ul li {
   margin-right: 20px;
   line-height: 2vw;
+  margin-bottom:20px;
 }
 
 #allitems #itembox ul li h2 {
@@ -51,4 +52,10 @@
 #allitems .allitembox p {
   padding: 10px;
   text-align: center;
+}
+
+
+@media (max-width: 768px) {
+
+
 }
