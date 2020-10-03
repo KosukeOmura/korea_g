@@ -40,6 +40,7 @@
 #newArrival .recommendCol h2 {
   font-size: 10px;
   font-family: 'ヒラギノ角ゴシック','Hiragino Sans','ヒラギノ角ゴシック','Hiragino Sans',sans-serif;
+  word-wrap: break-word;
 }
 
 #newArrival .recommendCol p {
@@ -97,6 +98,8 @@
 
   #newArrival .recommendCol ul li h2 {
     margin:6px;
+    width:30vw;
+    line-height:18px;
   }
   #newArrival .recommendCol ul li p {
     margin:4px;
