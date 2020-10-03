@@ -57,5 +57,16 @@
 
 @media (max-width: 768px) {
 
+  #allitems #itembox ul li {
+    margin-right: 20px;
+    line-height: 2vw;
+    margin-bottom:20px;
+  }
+
+}
+
+
+@media (max-width: 580px) {
+
 
 }

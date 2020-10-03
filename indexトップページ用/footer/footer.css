@@ -26,11 +26,85 @@ footer .rightfooter a {
 
 
 @media (max-width: 768px) {
-
-  footer .rightfooter {
-    font-size: 1vw;
-    margin-right: 40px;
+  footer {
+    background-color:rgba(219, 219, 219, 0.983);
+    max-width:100%;
+    height:auto;
+    text-align:center;
+    margin: 0 auto;
+    display: block;
+    justify-content: space-between;
+    padding-top:40px;
   }
 
+  footer .leftfooter p {
+    display: block;
+    font-size: 18px;
+    font-family: 'TsukuBRdGothic-Regular',sans-serif;
+    margin-bottom:20px;
+  }
+  
+
+  footer .rightfooter {
+    font-size: 14px;
+    margin-right: 0;
+    padding-bottom:20px;
+  }
+
+  footer .leftfooter img {
+    width: 50px;
+  }
+
+  footer .leftfooter .iconimage{
+    margin:20px;
+  }
+
+  footer .rightfooter a {
+    display:block;
+
+  }
+
+}
+
+
+@media (max-width: 580px) {
+
+  footer {
+    background-color:rgba(219, 219, 219, 0.983);
+    max-width:100%;
+    height:auto;
+    text-align:center;
+    margin: 0 auto;
+    display: block;
+    justify-content: space-between;
+    padding-top:40px;
+  }
+
+  footer .leftfooter p {
+    display: block;
+    font-size: 18px;
+    font-family: 'TsukuBRdGothic-Regular',sans-serif;
+    margin-bottom:20px;
+  }
+  
+
+  footer .rightfooter {
+    font-size: 14px;
+    margin-right: 0;
+    padding-bottom:20px;
+  }
+
+  footer .leftfooter img {
+    width: 40px;
+  }
+
+  footer .leftfooter .iconimage{
+    margin:20px;
+  }
+
+  footer .rightfooter a {
+    display:block;
+
+  }
 
 }

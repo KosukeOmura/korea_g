@@ -52,7 +52,7 @@
   /* background: pink; */
   position: fixed;
   top: 0;
-  right: 5%;
+  right: 2%;
   z-index:3;
 }
 #hamburger-menu.active {
@@ -135,4 +135,22 @@ nav.active {
 /* ナビ内カートアイコン */
 #cartitems {
   margin-bottom:50px;
+}
+
+
+
+
+@media (max-width: 580px) {
+
+  #hamburger-menu {
+    display: block;
+    height: 53px;
+    width: 70px;
+    /* background: pink; */
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index:3;
+  }
+
 }

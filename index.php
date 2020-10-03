@@ -367,9 +367,11 @@ define('PDO_DSN','mysql:host=us-cdbr-east-02.cleardb.com;dbname=' . DB_DATABASE)
 
     <footer>
         <div class="leftfooter">
-            <img src="indexトップページ用/footer/images/footer.png">
-            <img src="indexトップページ用/footer/images/twicon.png">
-            <img src="indexトップページ用/footer/images/igicon2018.png">
+            <div class="iconimage">
+                <!-- <img src="indexトップページ用/footer/images/footer.png"> -->
+                <img src="indexトップページ用/footer/images/twicon.png">
+                <img src="indexトップページ用/footer/images/igicon2018.png">
+            </div>
             <p>©️korea_g[韓国グラム]</p>
         </div>
         <div class="rightfooter">

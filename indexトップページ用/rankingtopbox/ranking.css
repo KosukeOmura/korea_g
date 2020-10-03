@@ -87,3 +87,31 @@
   }
 
 }
+
+
+@media (max-width: 580px) {
+
+  #ranking .ttr {
+    margin-bottom: 60px;
+  }
+  
+  #ranking .ttr ul {
+    display: flex;
+    padding: 0;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  
+  #ranking .ttr ul .ttln {
+    margin-right: 20px;
+    line-height: 2vw;
+  }
+  #ranking .rankingtopNumber {
+    margin-bottom:20px;
+    width: 40vw;
+    height: 60vw;
+    object-fit: cover;
+  }
+
+}

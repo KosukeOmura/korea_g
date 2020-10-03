@@ -48,19 +48,22 @@
 @media (max-width: 768px) {
 
 
-  #blog img {
-    width: 28vw;
-    object-fit: cover;
-    height: 10vw;
-  }
-
   #blog #blogCol ul h2 {
     font-size: 1vw;
     font-weight: normal;
     font-family: 'TsukuBRdGothic-Regular',sans-serif;
+    margin-bottom:5px;
   }
 
   #blog #blogCol ul p {
     font-size: 0.7vw;
+    margin-bottom:10px;
+    margin-top:5px;
   }
+}
+
+
+@media (max-width: 580px) {
+
+
 }
