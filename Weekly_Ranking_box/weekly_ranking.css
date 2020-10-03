@@ -1,7 +1,7 @@
 @charset "UTF-8";
 main {
   max-width: 100%;
-  width: 82%;
+  width: 90vw;
   margin: 0 auto;
   margin-top: 30px;
   font-family: "Century Gothic",sans-serif;
@@ -16,8 +16,8 @@ main .filtter_wrap .filtter_box.active {
 }
 
 main #newArrival img {
-  width: 18vw;
-  height:46vh;
+  width: 25vw;
+  height:auto;
   margin-right: 1vw;
   object-fit:cover;
 }
@@ -67,4 +67,20 @@ main #newArrival .arrivalbox p {
 main #newArrival .arrivalbox a {
   display: block;
   width: 100%;
+}
+
+
+
+
+
+@media (max-width: 800px) {
+
+  main #newArrival img {
+    width: 25vw;
+    height:auto;
+    margin-right: 1vw;
+    object-fit:cover;
+  }
+
+
 }

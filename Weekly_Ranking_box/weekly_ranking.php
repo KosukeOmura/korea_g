@@ -317,19 +317,28 @@
             </div>
         </div>
 
-        <!-- フッタースタート -->
-        <footer>
-            <div class="leftfooter">
-                <img src="../indexトップページ用/footer/images/footer.png">
-                <img src="../indexトップページ用/footer/images/twicon.png">
-                <img src="../indexトップページ用/footer/images/igicon2018.png">
-                <p>©️korea_g[韓国グラム]</p>
+        <!-- SNSスタート -->
+    <div class="snsbox">
+        <h2><a href=""><img src="image/instagram.png"></a>Instagram </h2>
+        <script src="https://snapwidget.com/js/snapwidget.js"></script>
+        <iframe src="https://snapwidget.com/embed/862627" class="snapwidget-widget" allowtransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden;  width:100%; "></iframe>
+    </div>
+
+    <footer>
+        <div class="leftfooter">
+            <div class="iconimage">
+                <!-- <img src="indexトップページ用/footer/images/footer.png"> -->
+                <img src="indexトップページ用/footer/images/twicon.png">
+                <img src="indexトップページ用/footer/images/igicon2018.png">
             </div>
-            <div class="rightfooter">
-                <a href="">プライバシーポリシー</a>
-                <a href="">特定商取引に関する表記</a>
-            </div>
-        </footer>
+            <p>©️korea_g[韓国グラム]</p>
+        </div>
+        <div class="rightfooter">
+            <a href="">プライバシーポリシー</a>
+            <a href="">特定商取引に関する表記</a>
+        </div>
+    </footer>
+
     
         <!-- swiper -->
     <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>

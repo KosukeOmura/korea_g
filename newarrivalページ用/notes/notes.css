@@ -77,6 +77,11 @@
 
 @media (max-width: 768px) {
 
-  
+
+  .notes_group {
+  max-width: 100%;
+  margin: 180px auto 180px auto;
+  width: 70%;
+}
 
 }

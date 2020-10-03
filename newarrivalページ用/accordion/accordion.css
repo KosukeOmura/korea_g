@@ -222,5 +222,24 @@ main #newArrival .arrivalbox a {
     width:15vw;
   }
 
+/* view ALL */
+
+  main #newArrival .arrivalbox {
+    margin: 0 auto;
+    border: 1px solid #555353;
+    width: 100%;
+  }
+  
+  main #newArrival .arrivalbox p {
+    padding: 10px;
+    text-align: center;
+  }
+  
+  main #newArrival .arrivalbox a {
+    display: block;
+    width: 100%;
+  }
+  
+
 
 }
