@@ -17,7 +17,8 @@ body {
 
 #textanauns #textanauns-images img {
   max-width: 100%;
-  width: 300px;
+  width: 40vw;
+  height:4vw;
 }
 
 header {
@@ -170,8 +171,6 @@ header #List-top a {
   header #List-top {
     display:none;
   }
-
-
 
   /* バナー8つ */
   #banner {
