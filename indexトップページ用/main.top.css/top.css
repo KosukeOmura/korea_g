@@ -19,7 +19,7 @@ body {
 #textanauns #textanauns-images img {
   max-width: 100%;
   width: 40vw;
-  height: auto;
+  height: 20px;
 }
 
 header {
