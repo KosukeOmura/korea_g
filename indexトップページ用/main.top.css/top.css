@@ -27,8 +27,9 @@ header {
 }
 
 header .brandname {
-  width: 12vw;
+  width:20vw;
   margin-left: 20px;
+  height:6vw;
 }
 
 header #List-top {
