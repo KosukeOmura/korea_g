@@ -13,12 +13,13 @@ body {
   display: flex;
   margin: 0 auto;
   justify-content: space-between;
+  height: auto;
 }
 
 #textanauns #textanauns-images img {
   max-width: 100%;
   width: 40vw;
-  height:4vw;
+  height: auto;
 }
 
 header {
