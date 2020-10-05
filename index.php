@@ -57,10 +57,8 @@ define('PDO_DSN','mysql:host=us-cdbr-east-02.cleardb.com;dbname=' . DB_DATABASE)
 
             <nav id="nav">
                 <ul>
-                    <li id="Arrow"><a href="">MENS</a></li>
-                    <li><a href="">LADIES</a></li>
-                    <li><a href="">UNISEX</a></li>
-                    <li><a href="">SALE</a></li>
+                    <li id="Arrow"><a href="MENS_ONLY/mens_only.php">MENS</a></li>
+                    <li><a href="LADIES_ONLY/ladies_only.php">LADIES</a></li>
                     
                     <div class="contactform">
                         <a href="">CONTACT</a>
@@ -83,9 +81,8 @@ define('PDO_DSN','mysql:host=us-cdbr-east-02.cleardb.com;dbname=' . DB_DATABASE)
     
     <div id="List-top">
         <ul>
-            <li><a href="#">MENS</a></li>
-            <li><a href="#">LADIES</a></li>
-            <li><a href="#">SALE</a></li>
+            <li><a href="MENS_ONLY/mens_only.php">MENS</a></li>
+            <li><a href="LADIES_ONLY/ladies_only.php">LADIES</a></li>
         </ul>
     </div>
     </header>
