@@ -18,8 +18,8 @@ body {
 
 #textanauns #textanauns-images img {
   max-width: 100%;
-  width: 40vw;
-  height: 20px;
+  width: 300px;
+  height: auto;
 }
 
 header {
@@ -29,9 +29,9 @@ header {
 }
 
 header .brandname {
-  width:20vw;
+  width: 12vw;
   margin-left: 20px;
-  height:6vw;
+  height: auto;
 }
 
 header #List-top {
@@ -172,6 +172,13 @@ header #List-top a {
   header #List-top {
     display:none;
   }
+
+  /* ブランドロゴ */
+  header .brandname {
+    width:150px;
+    margin-left: 20px;
+  }
+
 
   /* バナー8つ */
   #banner {
